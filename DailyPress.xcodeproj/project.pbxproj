@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		F06EA23F2A3F66E8000A9FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA23E2A3F66E8000A9FE6 /* AppDelegate.swift */; };
 		F06EA2412A3F66E8000A9FE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2402A3F66E8000A9FE6 /* SceneDelegate.swift */; };
-		F06EA2432A3F66E8000A9FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2422A3F66E8000A9FE6 /* ViewController.swift */; };
-		F06EA2462A3F66E8000A9FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06EA2442A3F66E8000A9FE6 /* Main.storyboard */; };
 		F06EA2482A3F66E9000A9FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06EA2472A3F66E9000A9FE6 /* Assets.xcassets */; };
 		F06EA24B2A3F66E9000A9FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06EA2492A3F66E9000A9FE6 /* LaunchScreen.storyboard */; };
+		F06EA2542A3F6764000A9FE6 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2532A3F6764000A9FE6 /* NewsModel.swift */; };
+		F06EA2572A3F6981000A9FE6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F06EA2562A3F6981000A9FE6 /* SnapKit */; };
+		F06EA25A2A3F6A18000A9FE6 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2592A3F6A18000A9FE6 /* NewsListTableViewController.swift */; };
+		F06EA25D2A3F6CBB000A9FE6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA25C2A3F6CBB000A9FE6 /* CustomTableViewCell.swift */; };
+		F06EA2602A3F8A35000A9FE6 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA25F2A3F8A35000A9FE6 /* NewsViewModel.swift */; };
+		F06EA2632A3FBFAE000A9FE6 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2622A3FBFAE000A9FE6 /* Webservice.swift */; };
+		F06EA2662A3FCDC0000A9FE6 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F06EA2652A3FCDC0000A9FE6 /* SDWebImage */; };
+		F06EA2682A4063DD000A9FE6 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2672A4063DD000A9FE6 /* DetailViewModel.swift */; };
+		F06EA26A2A40642B000A9FE6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EA2692A40642B000A9FE6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F06EA23B2A3F66E8000A9FE6 /* DailyPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06EA23E2A3F66E8000A9FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06EA2402A3F66E8000A9FE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F06EA2422A3F66E8000A9FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F06EA2452A3F66E8000A9FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F06EA2472A3F66E9000A9FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06EA24A2A3F66E9000A9FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06EA24C2A3F66E9000A9FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06EA2532A3F6764000A9FE6 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		F06EA2592A3F6A18000A9FE6 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		F06EA25C2A3F6CBB000A9FE6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F06EA25F2A3F8A35000A9FE6 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		F06EA2622A3FBFAE000A9FE6 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		F06EA2672A4063DD000A9FE6 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		F06EA2692A40642B000A9FE6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06EA2662A3FCDC0000A9FE6 /* SDWebImage in Frameworks */,
+				F06EA2572A3F6981000A9FE6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,60 @@
 		F06EA23D2A3F66E8000A9FE6 /* DailyPress */ = {
 			isa = PBXGroup;
 			children = (
+				F06EA2612A3FBF95000A9FE6 /* Service */,
+				F06EA25E2A3F8A1A000A9FE6 /* View Model */,
+				F06EA25B2A3F6BEA000A9FE6 /* Cells */,
+				F06EA2582A3F69F9000A9FE6 /* Controllers */,
+				F06EA2522A3F6751000A9FE6 /* Models */,
 				F06EA23E2A3F66E8000A9FE6 /* AppDelegate.swift */,
 				F06EA2402A3F66E8000A9FE6 /* SceneDelegate.swift */,
-				F06EA2422A3F66E8000A9FE6 /* ViewController.swift */,
-				F06EA2442A3F66E8000A9FE6 /* Main.storyboard */,
 				F06EA2472A3F66E9000A9FE6 /* Assets.xcassets */,
 				F06EA2492A3F66E9000A9FE6 /* LaunchScreen.storyboard */,
 				F06EA24C2A3F66E9000A9FE6 /* Info.plist */,
 			);
 			path = DailyPress;
+			sourceTree = "<group>";
+		};
+		F06EA2522A3F6751000A9FE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F06EA2532A3F6764000A9FE6 /* NewsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F06EA2582A3F69F9000A9FE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F06EA2592A3F6A18000A9FE6 /* NewsListTableViewController.swift */,
+				F06EA2692A40642B000A9FE6 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F06EA25B2A3F6BEA000A9FE6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F06EA25C2A3F6CBB000A9FE6 /* CustomTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F06EA25E2A3F8A1A000A9FE6 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				F06EA25F2A3F8A35000A9FE6 /* NewsViewModel.swift */,
+				F06EA2672A4063DD000A9FE6 /* DetailViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		F06EA2612A3FBF95000A9FE6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F06EA2622A3FBFAE000A9FE6 /* Webservice.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +142,10 @@
 			dependencies = (
 			);
 			name = DailyPress;
+			packageProductDependencies = (
+				F06EA2562A3F6981000A9FE6 /* SnapKit */,
+				F06EA2652A3FCDC0000A9FE6 /* SDWebImage */,
+			);
 			productName = DailyPress;
 			productReference = F06EA23B2A3F66E8000A9FE6 /* DailyPress.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +174,10 @@
 				Base,
 			);
 			mainGroup = F06EA2322A3F66E8000A9FE6;
+			packageReferences = (
+				F06EA2552A3F6981000A9FE6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F06EA2642A3FCDC0000A9FE6 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = F06EA23C2A3F66E8000A9FE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +194,6 @@
 			files = (
 				F06EA24B2A3F66E9000A9FE6 /* LaunchScreen.storyboard in Resources */,
 				F06EA2482A3F66E9000A9FE6 /* Assets.xcassets in Resources */,
-				F06EA2462A3F66E8000A9FE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +204,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06EA2432A3F66E8000A9FE6 /* ViewController.swift in Sources */,
+				F06EA26A2A40642B000A9FE6 /* DetailViewController.swift in Sources */,
+				F06EA25A2A3F6A18000A9FE6 /* NewsListTableViewController.swift in Sources */,
+				F06EA2632A3FBFAE000A9FE6 /* Webservice.swift in Sources */,
+				F06EA2602A3F8A35000A9FE6 /* NewsViewModel.swift in Sources */,
+				F06EA25D2A3F6CBB000A9FE6 /* CustomTableViewCell.swift in Sources */,
+				F06EA2542A3F6764000A9FE6 /* NewsModel.swift in Sources */,
 				F06EA23F2A3F66E8000A9FE6 /* AppDelegate.swift in Sources */,
 				F06EA2412A3F66E8000A9FE6 /* SceneDelegate.swift in Sources */,
+				F06EA2682A4063DD000A9FE6 /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F06EA2442A3F66E8000A9FE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F06EA2452A3F66E8000A9FE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F06EA2492A3F66E9000A9FE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +356,6 @@
 				INFOPLIST_FILE = DailyPress/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +383,6 @@
 				INFOPLIST_FILE = DailyPress/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +420,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F06EA2552A3F6981000A9FE6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F06EA2642A3FCDC0000A9FE6 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F06EA2562A3F6981000A9FE6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F06EA2552A3F6981000A9FE6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F06EA2652A3FCDC0000A9FE6 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F06EA2642A3FCDC0000A9FE6 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F06EA2332A3F66E8000A9FE6 /* Project object */;
 }
